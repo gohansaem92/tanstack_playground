@@ -1,10 +1,14 @@
 import React from "react";
-
+import Header from "./components/Header";
+import LandingPage from "./components/LandingPage";
+import Footer from "./components/Footer";
 
 function App() {
   return (
-    <div className="h-screen bg-gray-100 flex items-center justify-center">
-      <h1 className="text-4xl font-bold text-blue-600">Hello, Tailwind CSS!</h1>
+    <div className="bg-gray-100  flex flex-col min-h-screen">
+      <Header />
+      <LandingPage />
+      <Footer />
     </div>
   );
 }
